@@ -10,7 +10,7 @@ namespace Tyuiu.BabenkovTO.Sprint3.Task6.V19.Test
             int startV = 10;
             int stopV = 15;
             DataService ds = new DataService();
-            Assert.AreEqual(45, ds.GetSumTheDivisors(startV, stopV));
+            Assert.AreEqual(16, ds.GetSumTheDivisors(startV, stopV));
         }
     }
 }

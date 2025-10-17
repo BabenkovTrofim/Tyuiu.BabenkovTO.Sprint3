@@ -5,7 +5,7 @@ namespace Tyuiu.BabenkovTO.Sprint3.Task6.V19.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int sum = 0;
+            int count = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
                 int d = 1;
@@ -13,12 +13,12 @@ namespace Tyuiu.BabenkovTO.Sprint3.Task6.V19.Lib
                 {
                     if(i % d == 0)
                     {
-                        sum += d;
+                        count++;
                     }
                     d++;
                 }
             }
-            return sum;
+            return count;
         }
     }
 }
